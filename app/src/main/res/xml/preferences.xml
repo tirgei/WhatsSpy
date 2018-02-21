@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="general_setings"
+        android:title="General">
+
+        <SwitchPreference
+            android:key="disguise_app"
+            android:title="Disguise app"
+            android:summary="Disguise app as calculator"
+            android:defaultValue="false"/>
+
+        <Preference
+            android:key="calc_code"
+            android:title="Unlock code"
+            android:summary="Code to unlock app from calculator"/>
+
+        <Preference
+            android:key="help"
+            android:title="Help"
+            android:summary="Tap here to view Help"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="get_social"
+        android:title="Social">
+
+        <Preference
+            android:key="rate_app"
+            android:title="Rate App"
+            android:summary="Rate app on the Play Store"/>
+
+        <Preference
+            android:key="share_link"
+            android:title="Share this application"
+            android:summary="Share the download link to friends" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="about"
+        android:title="About">
+
+        <Preference
+            android:key="terms_of_use"
+            android:title="Terms of use"
+            android:summary="By using this app you agree to our terms of use"/>
+
+        <Preference
+            android:key="app_version"
+            android:title="App Version"
+            android:summary="Version 1.0.1" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

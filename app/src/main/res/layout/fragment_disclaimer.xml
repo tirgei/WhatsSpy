@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context="com.gelostech.whatsspy.fragments.DisclaimerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <WebView
+        android:layout_width="match_parent"
+        android:background="@color/primaryText"
+        android:layout_height="match_parent"
+        android:id="@+id/disclaimer_webivew"/>
+
+</FrameLayout>

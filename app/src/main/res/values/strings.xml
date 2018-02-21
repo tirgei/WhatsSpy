@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsSpy</string>
+    <string name="settings">Settings</string>
+    <string name="invite_body">Want to spy on someone\'s WhatsApp? Check out this app!</string>
+    <string name="main_banner_ad">ca-app-pub-1229251825159326/7331871053</string>
+    <string name="interstitial_ad">ca-app-pub-1229251825159326/1450070558</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_message">Error loading. Please check internet connection then tap on reload.</string>
+</resources>

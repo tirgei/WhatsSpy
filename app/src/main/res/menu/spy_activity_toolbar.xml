@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:title="settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/menu_settings"/>
+
+    <item
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="refresh"
+        android:icon="@drawable/ic_refresh"
+        android:id="@+id/menu_refresh"/>
+
+</menu>
